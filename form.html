@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form class="form">
+        <div class="form-head">
+            <a href="index.html">
+                <= </a>
+                    <h1>Заявка на вступление</h1>
+        </div>
+        <div class="form-body">
+            <fieldset class="nickname-fields">
+                <legend>Your Nickname</legend>
+                <input class="f-name" type="text" placeholder="Firstname">
+                <input class="s-name" type="text" placeholder="Secondname">
+            </fieldset>
+            <p class="gender">Gender</p>
+            <div class="wrapper">
+                <input type="radio" name="gender" id="m-radio">
+                <label class="m-gender" for="m-radio"> Men</label>
+                <input type="radio" name="gender" id="w-radio">
+                <label class="w-gender" for="w-radio">Women</label>
+            </div>
+            <div class="wrapper">
+                <input class="checkbox" type="checkbox" name="age" id="age">
+                <label for="age">Are you 18?</label>
+            </div>
+            <div class="wrapper">
+                <label for="discipline">Your discipline</label>
+                <select class="select" name="Game" id="discipline">
+                    <option value="CS:GO">CS:GO</option>
+                    <option value="Dota 2">Dota 2</option>
+                    <option value="Apex Legends">Apex Legends</option>
+                </select>
+            </div>
+            <textarea name="Comment" id="Comment" placeholder="Your Information"></textarea>
+            <button class="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
